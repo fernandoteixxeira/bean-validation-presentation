@@ -1,0 +1,8 @@
+POST /life HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "birthDate": "2025-12-31",
+  "deathDate": "2026-01-01"
+}

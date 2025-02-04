@@ -1,0 +1,11 @@
+POST /period HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "name": "Fernando",
+  "period": {
+    "initialDate":"2025-12-31",
+    "finalDate":"2026-01-01"
+  }
+}
